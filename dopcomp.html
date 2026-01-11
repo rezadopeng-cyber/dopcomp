@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DOPCOMP Service Laptop Bandung</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:Segoe UI,Tahoma,sans-serif;background:linear-gradient(to bottom,#e3f2fd,#ffffff);color:#333;}
+a{text-decoration:none;color:inherit;}
+header{background:linear-gradient(90deg,#1e88e5,#42a5f5);padding:15px;text-align:center;}
+header img{height:60px;}
+.hero img{width:100%; border-radius:12px;}
+.hero-text{text-align:center;margin:15px 10%;font-size:22px;font-weight:bold;color:#1e88e5;}
+section{padding:40px 10%;}
+h2{text-align:center;color:#1e88e5;margin-bottom:25px;}
+.collapsible{background:#ffc107; color:#000; cursor:pointer;padding:15px; width:100%; border:none; text-align:center;border-radius:12px; font-size:18px; font-weight:bold;margin-bottom:30px;}
+.collapsible:after{content:'+';float:right;}
+.collapsible.active:after{content:'-';}
+.content{padding:10px 15px; display:none; overflow:hidden; background:#fff; border-radius:12px; margin-bottom:20px; box-shadow:0 4px 12px rgba(0,0,0,0.1);}
+.content p{text-align:center;margin:8px 0;font-size:16px;}
+.cards{display:flex; flex-wrap:wrap; gap:20px; justify-content:center;}
+.card{width:280px; background:#fff; border-radius:12px; padding:20px; text-align:center; cursor:pointer; box-shadow:0 4px 12px rgba(0,0,0,.1);}
+.card img{width:60px;margin-bottom:10px;}
+.card h3{color:#1e88e5;}
+.details{display:none; text-align:left; margin-top:10px;}
+.app-icons img{width:40px;margin:5px;}
+form{max-width:400px; margin:auto; display:flex; flex-direction:column; gap:10px;}
+input,textarea{padding:10px;border-radius:6px;border:1px solid #ccc;}
+button{background:#1e88e5;color:white;border:none;padding:12px;border-radius:8px; cursor:pointer;}
+button:hover{background:#1565c0;}
+footer{background:#1c1c1c;color:white;text-align:center;padding:20px;}
+.wa{position:fixed; right:20px; bottom:20px; width:60px; height:60px; background:#25d366; color:white; font-size:28px; border-radius:50%; display:flex; align-items:center; justify-content:center;}
+#status{color:green;text-align:center;margin-top:10px;}
+</style>
+</head>
+<body>
+
+<header>
+  <img src="https://i.imgur.com/UNNgZm4.png" alt="Logo">
+</header>
+
+<section class="hero">
+  <img src="https://i.imgur.com/DUCeUp8.jpeg" alt="Banner">
+</section>
+
+<div class="hero-text">
+Service Laptop & Komputer Panggilan di Bandung – Cepat dan Terpercaya
+</div>
+
+<section>
+
+<button class="collapsible">Mau konsultasi atau tanya-tanya seputar laptop, software, atau paket teknik sipil?</button>
+<div class="content">
+  <p>WhatsApp: <a href="https://wa.me/6285156850493">0851‑5685‑0493</a></p>
+  <p>Email: <a href="mailto:rezadopeng@gmail.com">rezadopeng@gmail.com</a></p>
+</div>
+
+<h2>Layanan & Harga</h2>
+<div class="cards">
+
+<div class="card">
+<img src="https://i.imgur.com/UtbRISP.jpeg" alt="Service Laptop & PC">
+<h3>Service Laptop & PC</h3>
+<div class="details"><p>Perbaikan hardware & software</p></div>
+</div>
+
+<div class="card">
+<img src="https://i.imgur.com/MvLf8UH.jpeg" alt="Instal Aplikasi">
+<h3>Instal Aplikasi</h3>
+<div class="details"><p>Mulai Rp 5.000</p></div>
+</div>
+
+<div class="card">
+<img src="https://i.imgur.com/yNOBEPj.png" alt="Windows 10">
+<h3>Windows 10</h3>
+<div class="details"><p>Rp 70.000 - Free 3 aplikasi</p></div>
+</div>
+
+<div class="card">
+<img src="https://i.imgur.com/FWphobA.jpeg" alt="Windows 11">
+<h3>Windows 11</h3>
+<div class="details"><p>Rp 100.000 - Free 3 aplikasi</p></div>
+</div>
+
+<div class="card">
+<img src="https://i.imgur.com/zW7cWsh.jpeg" alt="Paket Teknik Sipil">
+<h3>Paket Teknik Sipil</h3>
+<div class="details">
+<p>Rp 20.000</p>
+<div class="app-icons">
+<img src="https://i.imgur.com/rqIE21g.png" alt="AutoCAD">
+<img src="https://i.imgur.com/QkBnJYA.jpeg" alt="SketchUp">
+<img src="https://i.imgur.com/2fu0zIh.png" alt="ETABS">
+<img src="https://i.imgur.com/3w2rT5U.png" alt="Global Mapper">
+<img src="https://i.imgur.com/QYwInmg.png" alt="Google Earth">
+</div>
+</div>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2>Kirim Pesan</h2>
+<form id="contact-form">
+<input type="text" name="user_name" placeholder="Nama" required>
+<input type="email" name="user_email" placeholder="Email" required>
+<textarea name="message" placeholder="Pesan" required></textarea>
+<button type="submit">Kirim</button>
+</form>
+<p id="status"></p>
+
+<p style="text-align:center; margin-top:15px;">
+Atau hubungi langsung via WhatsApp atau email <a href="mailto:rezadopeng@gmail.com">rezadopeng@gmail.com</a><br>
+Layanan panggilan di Bandung
+</p>
+</section>
+
+<footer>
+© 2026 Reza Ansari
+</footer>
+
+<a class="wa" href="https://wa.me/6285156850493" target="_blank">📞</a>
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+// Ganti Public Key & Template ID Reza
+emailjs.init("user_PUBLIC_KEY"); // <-- Public Key EmailJS Reza
+const form = document.getElementById('contact-form');
+
+form.addEventListener('submit', function(event) {
+  event.preventDefault();
+  emailjs.sendForm('service_plt1m0q', 'template_TEMPLATE_ID', this)
+    .then(function() {
+      document.getElementById('status').innerText = "Pesan berhasil dikirim!";
+      form.reset();
+    }, function(error) {
+      document.getElementById('status').innerText = "Gagal mengirim pesan. Coba lagi.";
+      console.log('FAILED...', error);
+    });
+});
+
+// Collapsible “Mau Konsultasi/Tanya-tanya”
+var coll=document.querySelector(".collapsible");
+coll.addEventListener("click", function(){
+  this.classList.toggle("active");
+  var content=this.nextElementSibling;
+  if(content.style.display==="block"){ content.style.display="none"; }
+  else{ content.style.display="block"; }
+});
+
+// Collapsible detail card
+document.querySelectorAll('.card').forEach(card=>{
+  card.onclick=()=>{
+    const d=card.querySelector('.details');
+    d.style.display=d.style.display==='block'?'none':'block';
+  }
+});
+</script>
+
+</body>
+</html>
